@@ -17,7 +17,7 @@
 
 ### Sobre
 
-Esse projeto e base de estudo para melhor entendimento do funcionamento de ferramentas como GraphQL. Onde é realiada a comunicação e consumo de dados por uma api GraphQL.
+Esse projeto e base de estudo para melhor entendimento do funcionamento de ferramentas como GraphQL. Onde é realizada a comunicação e consumo de dados por uma api GraphQL.
 
 Veja `.env.example` as [instruções](docs/installation.md) sobre as variáveis de ambiente.
 
