@@ -5,7 +5,7 @@
   "author": "Vinicius Mattos <mvinicius@funcionalcorp.com.br>",
   "license": "MIT",
   "scripts": {
-    "dev": "npx nodemon --exec babel-node src/index.js -e js,gql"
+    "dev": "npx nodemon --exec babel-node src/index.js -e js,gql && -r dotenv/config src/enviroment.js "
   },
   "devDependencies": {
     "@babel/cli": "^7.12.10",
@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "apollo-server": "^2.19.0",
+    "dotenv": "^8.2.0",
     "graphql": "^15.4.0",
     "merge-graphql-schemas": "^1.7.8",
     "mongoose": "^5.11.8"
