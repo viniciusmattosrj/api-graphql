@@ -12,6 +12,7 @@
 * Code style: ESLint
 * GraphQL 
 * MongoDB 
+* Nodemon 
 
 
 ### Sobre
