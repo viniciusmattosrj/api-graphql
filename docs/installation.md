@@ -29,6 +29,7 @@ yarn dev
 Caso você utilize docker ao invés do NVM será necessário realizar a cópia do arquivo example:
 ```
 cp -v docker-compose.yml.example docker-compose.yml
+cp -v .env.example .env
 ```
 
 Dentro do projeto **api-graphql** execute:
