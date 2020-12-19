@@ -2,9 +2,9 @@ import Post from '../../../models/Post';
 import User from '../../../models/User';
 
 export default {
-    // Post: {
-    //     author: (post) => USer.find(post.author),
-    // },
+    Post: {
+        author: (post) => User.findById(post.author),
+    },
     Query: {
         posts: () => Post.find(),
         post: (_, { id }) => Post.findById(id),
