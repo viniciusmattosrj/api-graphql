@@ -1,6 +1,6 @@
 [![pipeline status](https://github.com/viniciusmattosrj/api-graphql/badges/releaseCandidate/pipeline.svg)](https://github.com/viniciusmattosrj/api-graphql/commits/releaseCandidate)
 
-# Requerimentos
+## Requerimentos
 
 - Docker e docker-compose ou NVM
 - Node &ge; 10.15.3
@@ -17,11 +17,14 @@
 
 ### Sobre
 
-Esse projeto e base de estudo para melhor entendimento do funcionamento de ferramentas como GraphQL. Onde é realizada a comunicação e consumo de dados por uma api GraphQL.
+Esse projeto é uma api com GraphQl + Subscriptions, visando a prática das tecnologias. E está sendo utilizado o mongodb para persistência dos dados.
 
 Veja `.env.example` as [instruções](docs/installation.md) sobre as variáveis de ambiente.
 
+É possível importar as `.collections` através do [collections](docs/collections.json) que contém querys/mutations/subscriptions.
+
+
 &nbsp;
-#### Instalação
+### Instalação
 
 Para instalação verifique **[installation documentation](docs/installation.md)**.
