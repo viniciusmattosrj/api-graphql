@@ -1,9 +1,12 @@
 import { ApolloServer, PubSub } from 'apollo-server';
 import mongoose from 'mongoose';
+require('dotenv').config()
+const config = require('./config/enviroment.js');
 
 function startServer({ typeDefs, resolvers }) {
 
-    mongoose.connect('mongodb://10.11.0.4:27017/graphql', { useNewUrlParser:true});
+    console.log(config);
+    mongoose.connect(`${config.dbConnection}://${config.dbHost}:${config.dbPort}/${config.dbDatabase}`, { useNewUrlParser:true});
     
     const pubsub = new PubSub();
     const server = new ApolloServer({ typeDefs, resolvers, context: { pubsub }});
