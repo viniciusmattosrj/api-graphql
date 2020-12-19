@@ -10,7 +10,7 @@ export default {
     },
     Mutation: {
         createUser: (_, { data }) => User.create(data),
-        updateUser: (_, {id, data}) => User.findOneAndUpate(id, data, {new: true}),
+        updateUser: (_, {id, data}) => User.findOneAndUpdate(id, data, {new: true}),
         deleteUser: async (_, { id }) => !!(await User.findByIdAndDelete(id)),
     },
 };
