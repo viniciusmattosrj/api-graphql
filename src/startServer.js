@@ -5,7 +5,6 @@ const config = require('./config/enviroment.js');
 
 function startServer({ typeDefs, resolvers }) {
 
-    console.log(config);
     mongoose.connect(`${config.dbConnection}://${config.dbHost}:${config.dbPort}/${config.dbDatabase}`, { useNewUrlParser:true});
     
     const pubsub = new PubSub();
