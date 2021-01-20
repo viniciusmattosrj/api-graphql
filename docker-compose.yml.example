@@ -2,7 +2,7 @@ version: "3"
 
 services:
     node:
-        image: viniciusmattosrj/node:12-slim
+        image: viniciusmattosrj/node:12.13-slim
         container_name: node-app
         restart: on-failure
         networks:

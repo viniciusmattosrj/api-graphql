@@ -3,7 +3,7 @@
 ## Requerimentos
 
 - Docker e docker-compose ou NVM
-- Node &ge; 10.15.3
+- Node &ge; 12.13-slim
 - Npm ou Yarn
 
 ### Tecnologias Utilizadas
@@ -23,8 +23,6 @@ Veja `.env.example` as [instruções](docs/installation.md) sobre as variáveis 
 
 É possível importar as `.collections` através do [collections](docs/collections.json) que contém querys/mutations/subscriptions.
 
-
-&nbsp;
 ### Instalação
 
 Para instalação verifique **[installation documentation](docs/installation.md)**.
